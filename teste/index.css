@@ -1,0 +1,142 @@
+body {
+    background-color: #7f7f7f;
+    color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+.imagem-cabecalho {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+h1 {
+    color: black;
+}
+
+h2 {
+    text-align: center;
+
+}
+
+h3 {
+    text-emphasis: none;
+    padding: 50px;
+
+}
+
+h3 p {
+    color: black;
+    text-decoration: none;
+}
+
+p {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    text-align: center;
+    padding: 80px;
+
+}
+
+.sucesso {
+    color: red;
+    font-weight: bold;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+.categorias {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Espaço entre os blocos */
+    flex-wrap: wrap; /* Permite quebrar linha se for em tela pequena */
+    padding: 15px; 
+    text-align: center;
+
+}
+
+
+.categorias h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color:black;
+}
+
+.categoria-container {
+display: flex;
+justify-content: center;
+gap: 30px;
+flex-wrap: wrap;
+}
+.categoria {
+    border: 0px solid #ccc;
+    padding: 15px;
+    border-radius: 1px;
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease;
+    width: 150px; /* Largura fixa para cada bloco */
+}
+
+.categoria:hover {
+    transform: scale(1.05);
+}
+
+.categoria img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid white;
+    border-radius:0;
+    margin-bottom: 10px;
+}
+
+.categoria p {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
